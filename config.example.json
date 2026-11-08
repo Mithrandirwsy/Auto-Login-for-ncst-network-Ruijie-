@@ -1,0 +1,24 @@
+{
+  "_comment": "复制为 config.json 后修改，或直接运行 setup.bat 交互式生成",
+  "username": "",
+  "password_dpapi": "",
+  "password_plain": "",
+  "service": "",
+  "ssid_whitelist": [
+    "ncst.edu.cn"
+  ],
+  "portal_hosts": [
+    "172.30.0.11",
+    "login.ncst.edu.cn"
+  ],
+  "probe_urls": [
+    "http://connect.rom.miui.com/generate_204",
+    "http://www.msftconnecttest.com/connecttest.txt",
+    "http://www.baidu.com/"
+  ],
+  "check_interval_seconds": 15,
+  "login_retry_seconds": 45,
+  "max_fail_per_hour": 4,
+  "request_timeout": 6,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
